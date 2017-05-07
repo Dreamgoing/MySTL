@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangruoxuan/ClionProjects/MySTL/Alloc.cpp
+Alloc.h
+/Users/wangruoxuan/ClionProjects/MySTL/Alloc.h
+
+/Users/wangruoxuan/ClionProjects/MySTL/Alloc.h
+
+/Users/wangruoxuan/ClionProjects/MySTL/Allocator.hpp
+cstddef
+-
+new
+-
+iostream
+-
+cstdlib
+-
+
+/Users/wangruoxuan/ClionProjects/MySTL/main.cpp
+iostream
+-
+Allocator.hpp
+/Users/wangruoxuan/ClionProjects/MySTL/Allocator.hpp
+new
+-
+cstdio
+-
+cstdlib
+-
+
