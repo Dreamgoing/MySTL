@@ -29,8 +29,24 @@ namespace MySTL {
         ///@brief 根据区块大小，决定选择第n号free-list,n从0开始
         static size_t FREELIST_INDEX(size_t bytes);
 
+        ///@brief 返回一个大小为n的对象，并可能加入大小为n的其他区块到free-list
         static void* refill(size_t n);
 
+        ///@brief 内存池新配置一段空间
+        ///@param size 区块大小\
+        ///       num  区块数量
+        static char *chunk_alloc(size_t size,size_t& num);
+
+    public:
+
+        ///@brief 公开空间配置器接口
+        static void *allocate(size_t bytes);
+
+        ///@brief 释放内存
+        static void deallocate(void *ptr,size_t bytes);
+
+        ///@brief 重新配置内存
+        static void *reallocate(void *ptr,size_t old_sz,size_t new_sz);
 
     };
 }
