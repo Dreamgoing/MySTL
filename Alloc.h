@@ -21,15 +21,18 @@ namespace MySTL {
         enum ENFreeLists{NUMFREE_LIST=16};
         ///@note 枚举类型可以被静态函数所使用
         enum EMaxBytes{MAXBYTES=128};
+
+        enum ENObjs{NOBJS=20};
 //        const size_t EMaxBytes = 128;
     public:
+        ///free-list 节点的构造
         union obj{
             obj *next;
             char client[1];
         };
     private:
 //        const int NumFreeList = static_cast<const int>(EMaxBytes / EAlign::ALIGN);
-        const int NumObj = 20;
+//        const int NumObj = 20;
 
         ///16个free-list \
         /// @details 大小依次为8,16,24,...,128
@@ -65,7 +68,6 @@ namespace MySTL {
         ///@brief 重新配置内存
         static void *reallocate(void *ptr,size_t old_sz,size_t new_sz);
 
-        ///free-list 节点的构造
 
     };
 }
