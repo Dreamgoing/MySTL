@@ -22,10 +22,18 @@ void testOperatorNew(){
     allocator.deallocate(static_cast<int*>(tmp));
 
 }
+void testOther(){
+    union node{
+        node* next;
+        char c[1];
+    };
+    std::cout<< sizeof(char)<<" "<< sizeof(node)<<std::endl;
+}
 int main() {
 //    std::cout << "Hello, World!" << std::endl;
 
-    testOperatorNew();
+//    testOperatorNew();
 
+    testOther();
     return 0;
 }
