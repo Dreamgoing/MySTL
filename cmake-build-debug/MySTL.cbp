@@ -97,6 +97,9 @@
 		<Unit filename="/Users/wangruoxuan/ClionProjects/MySTL/TypeTraits.hpp">
 			<Option target="MySTL"/>
 		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/MySTL/Vector.hpp">
+			<Option target="MySTL"/>
+		</Unit>
 		<Unit filename="/Users/wangruoxuan/ClionProjects/MySTL/main.cpp">
 			<Option target="MySTL"/>
 		</Unit>

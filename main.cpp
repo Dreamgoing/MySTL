@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Allocator.hpp"
+#include "Alloc.h"
 #include <new>
 #include <cstdio>
 #include <cstdlib>
@@ -11,6 +12,15 @@ using namespace MySTL;
 ///@todo finish readme
 
 int a[5] = {1,2,3,4,5};
+
+class Thing{
+public:
+    int val;
+public:
+    void detail(){
+        std::cout<<"this val is "<<val<<std::endl;
+    }
+};
 
 ///@brief 测试Operator New
 void testOperatorNew(){
@@ -42,11 +52,28 @@ void testOther(){
         std::cout<<a[i]<<std::endl;
     }
 }
+
+
+
+///@brief 测试Alloc类
+void testAlloc(){
+    char* p;
+    p = (char*)Alloc::allocate(1000);
+
+    Thing* tmp = static_cast<Thing*> (Alloc::allocate(sizeof(Thing)));
+    tmp->val=1;
+    tmp->detail();
+    stpcpy(p,"12345");
+    std::cout<<p<<std::endl;
+
+}
 int main() {
 //    std::cout << "Hello, World!" << std::endl;
 
 //    testOperatorNew();
 
 //    testOther();
+
+    testAlloc();
     return 0;
 }

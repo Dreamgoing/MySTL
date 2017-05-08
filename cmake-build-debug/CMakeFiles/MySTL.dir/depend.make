@@ -4,6 +4,7 @@
 CMakeFiles/MySTL.dir/Alloc.cpp.o: ../Alloc.cpp
 CMakeFiles/MySTL.dir/Alloc.cpp.o: ../Alloc.h
 
+CMakeFiles/MySTL.dir/main.cpp.o: ../Alloc.h
 CMakeFiles/MySTL.dir/main.cpp.o: ../Allocator.hpp
 CMakeFiles/MySTL.dir/main.cpp.o: ../main.cpp
 
