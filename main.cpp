@@ -6,6 +6,13 @@
 
 using namespace MySTL;
 
+///@todo test alloc
+///@todo finish vector
+///@todo finish readme
+
+int a[5] = {1,2,3,4,5};
+
+///@brief 测试Operator New
 void testOperatorNew(){
     Allocator<int> allocator;
 
@@ -22,18 +29,24 @@ void testOperatorNew(){
     allocator.deallocate(static_cast<int*>(tmp));
 
 }
+
+///@brief 测试其它零散事务
 void testOther(){
     union node{
         node* next;
         char c[1];
     };
     std::cout<< sizeof(char)<<" "<< sizeof(node)<<std::endl;
+
+    for(int i = 0;i<5;i++){
+        std::cout<<a[i]<<std::endl;
+    }
 }
 int main() {
 //    std::cout << "Hello, World!" << std::endl;
 
 //    testOperatorNew();
 
-    testOther();
+//    testOther();
     return 0;
 }
