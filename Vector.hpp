@@ -9,6 +9,12 @@
 namespace MySTL{
     template <class T,class alloc=Alloc>
     class Vector{
+    private:
+        T *start_;
+        T *finish_;
+        T *endOfStorage_;
+
+        typedef Alloc dataAllocator;
     public:
         typedef T                           value_type;
         typedef value_type*                 pointer;
@@ -16,6 +22,13 @@ namespace MySTL{
         typedef value_type&                 reference;
         typedef size_t                      size_type;
         typedef ptrdiff_t                   difference_type;
+
+    public:
+        Vector():start_(nullptr),start_(nullptr),endOfStorage_(nullptr){}
+
+        iterator begin(){ return start_;}
+        iterator end(){ return finish_;}
+        difference_type size(){ return finish_-start_;}
     };
 }
 
