@@ -7,6 +7,7 @@
 
 #include <stddef.h>
 
+///设计迭代器模式
 ///@brief 迭代器的设计与萃取实践
 namespace MySTL{
 

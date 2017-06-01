@@ -12,8 +12,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5755003b-8ce0-4d13-b9cc-9951dda49228" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeCCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeSystem.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySTL.dir/Alloc.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySTL.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySTL.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySTL.dir/main.cpp.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Iterator.hpp" afterPath="$PROJECT_DIR$/Iterator.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySTL.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySTL.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,15 +103,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Iterator.hpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Iterator.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Iterator.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
-                <element signature="e#492#516#0" expanded="true" />
-                <element signature="e#750#841#0" expanded="true" />
-                <element signature="e#1074#1090#0" expanded="true" />
+                <element signature="e#503#527#0" expanded="true" />
+                <element signature="e#761#852#0" expanded="true" />
+                <element signature="e#1085#1101#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,7 +123,6 @@
             <state relative-caret-position="375">
               <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding>
-                <element signature="e#93#111#0" expanded="true" />
                 <element signature="e#218#227#0" expanded="true" />
                 <element signature="e#637#646#0" expanded="true" />
                 <element signature="e#741#750#0" expanded="true" />
@@ -113,12 +131,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="165">
-                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -136,13 +154,13 @@
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/TypeTraits.hpp" />
-        <option value="$PROJECT_DIR$/Iterator.hpp" />
         <option value="$PROJECT_DIR$/Allocator.hpp" />
         <option value="$PROJECT_DIR$/Alloc.h" />
         <option value="$PROJECT_DIR$/Alloc.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Vector.hpp" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Iterator.hpp" />
       </list>
     </option>
   </component>
@@ -424,7 +442,8 @@
       <workItem from="1494253350110" duration="376000" />
       <workItem from="1494328107412" duration="14000" />
       <workItem from="1494562236383" duration="275000" />
-      <workItem from="1494831437075" duration="21000" />
+      <workItem from="1494831437075" duration="44000" />
+      <workItem from="1496306423942" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="add some alloc readme">
       <created>1494562496208</created>
@@ -433,11 +452,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494562496208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="vector">
+      <created>1494831465937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494831465937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15486000" />
+    <option name="totallyTimeSpent" value="15533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -475,7 +501,8 @@
       <path value="$USER_HOME$" />
     </ignored-roots>
     <MESSAGE value="add some alloc readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some alloc readme" />
+    <MESSAGE value="vector" />
+    <option name="LAST_COMMIT_MESSAGE" value="vector" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,6 +511,29 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Allocator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="e#218#227#0" expanded="true" />
+            <element signature="e#637#646#0" expanded="true" />
+            <element signature="e#741#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -537,9 +587,9 @@
         <state relative-caret-position="570">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#492#516#0" expanded="true" />
-            <element signature="e#750#841#0" expanded="true" />
-            <element signature="e#1074#1090#0" expanded="true" />
+            <element signature="e#503#527#0" expanded="true" />
+            <element signature="e#761#852#0" expanded="true" />
+            <element signature="e#1085#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -549,7 +599,6 @@
         <state relative-caret-position="375">
           <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
-            <element signature="e#93#111#0" expanded="true" />
             <element signature="e#218#227#0" expanded="true" />
             <element signature="e#637#646#0" expanded="true" />
             <element signature="e#741#750#0" expanded="true" />
@@ -611,9 +660,9 @@
         <state relative-caret-position="135">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="e#492#516#0" expanded="true" />
-            <element signature="e#750#841#0" expanded="true" />
-            <element signature="e#1074#1090#0" expanded="true" />
+            <element signature="e#503#527#0" expanded="true" />
+            <element signature="e#761#852#0" expanded="true" />
+            <element signature="e#1085#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -623,7 +672,6 @@
         <state relative-caret-position="375">
           <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
-            <element signature="e#93#111#0" expanded="true" />
             <element signature="e#218#227#0" expanded="true" />
             <element signature="e#637#646#0" expanded="true" />
             <element signature="e#741#750#0" expanded="true" />
@@ -684,9 +732,9 @@
         <state relative-caret-position="135">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="e#492#516#0" expanded="true" />
-            <element signature="e#750#841#0" expanded="true" />
-            <element signature="e#1074#1090#0" expanded="true" />
+            <element signature="e#503#527#0" expanded="true" />
+            <element signature="e#761#852#0" expanded="true" />
+            <element signature="e#1085#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -696,7 +744,6 @@
         <state relative-caret-position="375">
           <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
-            <element signature="e#93#111#0" expanded="true" />
             <element signature="e#218#227#0" expanded="true" />
             <element signature="e#637#646#0" expanded="true" />
             <element signature="e#741#750#0" expanded="true" />
@@ -757,9 +804,9 @@
         <state relative-caret-position="135">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="e#492#516#0" expanded="true" />
-            <element signature="e#750#841#0" expanded="true" />
-            <element signature="e#1074#1090#0" expanded="true" />
+            <element signature="e#503#527#0" expanded="true" />
+            <element signature="e#761#852#0" expanded="true" />
+            <element signature="e#1085#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -769,7 +816,6 @@
         <state relative-caret-position="375">
           <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
-            <element signature="e#93#111#0" expanded="true" />
             <element signature="e#218#227#0" expanded="true" />
             <element signature="e#637#646#0" expanded="true" />
             <element signature="e#741#750#0" expanded="true" />
@@ -818,9 +864,9 @@
         <state relative-caret-position="135">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="e#492#516#0" expanded="true" />
-            <element signature="e#750#841#0" expanded="true" />
-            <element signature="e#1074#1090#0" expanded="true" />
+            <element signature="e#503#527#0" expanded="true" />
+            <element signature="e#761#852#0" expanded="true" />
+            <element signature="e#1085#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -830,7 +876,6 @@
         <state relative-caret-position="375">
           <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
-            <element signature="e#93#111#0" expanded="true" />
             <element signature="e#218#227#0" expanded="true" />
             <element signature="e#637#646#0" expanded="true" />
             <element signature="e#741#750#0" expanded="true" />
@@ -934,15 +979,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Iterator.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#492#516#0" expanded="true" />
-            <element signature="e#750#841#0" expanded="true" />
-            <element signature="e#1074#1090#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -951,7 +995,6 @@
         <state relative-caret-position="375">
           <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
-            <element signature="e#93#111#0" expanded="true" />
             <element signature="e#218#227#0" expanded="true" />
             <element signature="e#637#646#0" expanded="true" />
             <element signature="e#741#750#0" expanded="true" />
@@ -959,14 +1002,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Iterator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#503#527#0" expanded="true" />
+            <element signature="e#761#852#0" expanded="true" />
+            <element signature="e#1085#1101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
