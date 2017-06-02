@@ -9,6 +9,9 @@
 
 ///设计迭代器模式
 ///@brief 迭代器的设计与萃取实践
+
+
+///@note
 namespace MySTL{
 
     ///@brief iterator_category 根据移动特性与施行操作，迭代器被分为五类：
