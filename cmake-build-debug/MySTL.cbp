@@ -91,6 +91,9 @@
 		<Unit filename="/Users/wangruoxuan/ClionProjects/MySTL/Allocator.hpp">
 			<Option target="MySTL"/>
 		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/MySTL/Bst.hpp">
+			<Option target="MySTL"/>
+		</Unit>
 		<Unit filename="/Users/wangruoxuan/ClionProjects/MySTL/Iterator.hpp">
 			<Option target="MySTL"/>
 		</Unit>

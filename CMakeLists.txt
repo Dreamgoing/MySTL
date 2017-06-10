@@ -3,5 +3,5 @@ project(MySTL)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp TypeTraits.hpp Iterator.hpp Allocator.hpp Alloc.cpp Alloc.h Vector.hpp)
+set(SOURCE_FILES main.cpp TypeTraits.hpp Iterator.hpp Allocator.hpp Alloc.cpp Alloc.h Vector.hpp Bst.hpp)
 add_executable(MySTL ${SOURCE_FILES})
